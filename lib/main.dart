@@ -15,12 +15,9 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: new AppBar(
-          actions: <Widget>[
-            IconButton(icon: Icon(Icons.menu), onPressed: (){
-            }),
-          ],
           title: new Text('I Am Poor'),
           centerTitle: true,
+          backgroundColor: Colors.green[900],
         ),
         body: Center(
           child: new Image.asset(
